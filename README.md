@@ -30,7 +30,7 @@ ssh-keygen -t rsa -b 4096 -C "uname@edu.umea.se"
 cat ~/.ssh/id_rsa.pub
 ```
 
-Den publika nyckeln kommer se ut på följande format:
+Den publika nyckeln kommer se ut på följande format: 
 
 ```bash
 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSU
@@ -59,7 +59,7 @@ Ladda sedan ned Git till din dator. [Ladda ned här!](https://git-scm.com/downlo
 
 ## Ladda ned GitHub Repo
 
-- Klicka på Code på ert Repo.
+- Klicka på Code på ert Repo. hej alla mina kompisar
 - Klicka  Code igen (den gröna knappen)
 - Klicka SSH
 - Kopiera texten
