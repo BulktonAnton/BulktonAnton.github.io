@@ -2,7 +2,7 @@
 
 ## Mjukvara
 
-### Visual Studio Code
+### Visual Studio Code ALFONS HAR EN STOR APTIT
 
 - Installerad sen tidigare.
 
