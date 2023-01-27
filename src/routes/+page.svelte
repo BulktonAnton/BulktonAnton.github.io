@@ -68,7 +68,7 @@
 </script>
 
 <h1>TestoClicker</h1>
-{#if clicks>120 }
+{#if clicks>5000000000 }
 <h2>YOU WON</h2>
 {/if}
 
