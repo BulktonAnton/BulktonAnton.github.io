@@ -1,17 +1,7 @@
 ---
-title: Post three
-date: "2022-11-30"
+title: Tisdagen då fisk servades
+date: "2023-01-24"
 ---
 
-<h1>Tjena</h1>
 
-
-
-# you
-
----
-
-## Whatup
-
-**sick** dude
-
+Idag ändarde jag så att mina knappar har olika bilder vilket tog ett bra tag. Efter det så gjorde jag massa nya levels till mitt spel. Detta gjorde jag gensom att Ha en variabel som jag kallar img1 som jag bara byter url på och clicks > någonting. Nästa lektion ska jag fixa så att om man kommer upp til en nivå stannar man på den nivåns bild till man går upp en nivå igen. Alltså att man inte byter bild när man köper saker och får mindre pengar

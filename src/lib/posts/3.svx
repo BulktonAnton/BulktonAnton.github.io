@@ -1,17 +1,13 @@
 ---
-title: Post four
-date: "2021-12-14"
+title: Fredagen då solen faktis sken och Anton var ej klen.....
+date: "2023-01-20"
 ---
 
 <script>
  let a = 0;
 </script>
+Idag har jag ändrat namn på båda och jag har fixat så att om man köper en worker så blir bara den dubbelt så dyr och samma med dubbeler. Detta gör det lite svårare att komma långt och det tar mycket längre tid. Jag har även lagt in nya levlar hela vägen upp till 100 000. Nästa lektion ska jag ändra bakrudsbild på worker vilket jag skulle få hjälp av tobias och jag ska även lägga till fler levlar.
 
-Hello, I am _Post One._
-
-**Nice to meet tjena!**
-
-**sick**
     
 <h1>{a}</h1>
 

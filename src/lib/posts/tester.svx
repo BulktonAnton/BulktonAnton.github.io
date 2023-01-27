@@ -1,18 +1,8 @@
 ---
-title: Tester
-date: "2022-11-30"
+title: Onsdagen då träning först fanns sedan inte
+date: "2023-12-25"
 ---
 
-<h1>Tjenareee</h1>
 
-# you
+Idag gjorde jag så att ma inte kan gå ner en bild ifall man köper och förlorar sina poäng. Jag la även till den några levar vilket jag nu är klar med. Detta löste jag genom att göra en variabel som jag kallar muscle_level som gör att när en vild ska byta till den nya bilden måste clicks vara större än något och muscle_level måste vara en viss siffra. Jag fixade även en stor YOU WON text som kommer upp när man når en viss poäng. Nästa lektion har jag omprov och ag vet inte vad jag vill tilsätta till min hemsida för jag känner mig rätt så nöjd. 
 
----
-
-## Whatup
-
-**sick** dude
-
----
-
-## My guy!
