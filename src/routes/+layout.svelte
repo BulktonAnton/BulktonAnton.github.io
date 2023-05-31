@@ -10,6 +10,15 @@
       margin-left: 10%;
       margin-right: 10%;
     }
+    .container-fluid {
+   
+    background-image: url(startsida.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
   </style>
 </svelte:head>
 
@@ -23,7 +32,5 @@
 <main class="container-fluid">
   <hr />
 
-  <main class="container">
     <slot />
-  </main>
 </main>
