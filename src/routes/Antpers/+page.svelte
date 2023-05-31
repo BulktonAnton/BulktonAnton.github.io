@@ -1,7 +1,7 @@
 <script>
 
     function nextpage() {
-        location.href='http://localhost:5173/Atest'
+        location.href='./Atest'
     }
 
 </script>
