@@ -1,4 +1,5 @@
 <script>
+   // Alla frågor och alternativ
 let questions = [
     {
         q:"Är du aggresiv?",
@@ -464,6 +465,7 @@ let questions = [
 
    
 ]
+//Massvis med variablar, Namnet på variablarna beskriver vad de gör/ är till för
 let currentanswer = {};
 let answers = [];
 let undertext ='Bra jobbat! Nu är det dags för det riktiga quizet:';
@@ -478,6 +480,8 @@ let buttom_personality_text="Beskrivning av Persoligheterna"
 let result_index = 0
 let next_personality_buttom = "Nästa personlighet"
 let background_music_varibel = "backgroundmusic.mp3"
+
+//Musik till olika personligheter
 let personality_musics = [    
    {
         pers_musics: [
@@ -524,7 +528,8 @@ let personality_musics = [
 
    ]
 
-
+//Funktionen kollar så man svarat på fråga först
+//Sedan läggs alternativ man valt in i en lista, qindex plusas på 
 function nextquestion(){
 
 
@@ -544,6 +549,7 @@ function nextquestion(){
       }
     }
 
+    //Räknar ut hur många gånger man valt varje personlighet i procent
     let results = []
     function calculate1(){
       for(let i=1; i<7; i++)
@@ -555,6 +561,7 @@ function nextquestion(){
       
     }
 
+    //Beskrivning av personligheter
     let pers_discription_list = [
     {
         pers_header:"BOSSIG ANTON",
@@ -617,6 +624,8 @@ function nextquestion(){
 function qIndex_plus(){
    qIndex++
 }
+
+//När man gått igenom och läst om alla personligheter flyttas man till slutsida
 function result_index_plus(){
    result_index++
    if(result_index==6)
@@ -625,7 +634,7 @@ function result_index_plus(){
 }
 
 </script>
-
+<!--Själva huvuduizet och frågor och alternativ skrivs ut-->
 <div class="quiz-container" id="quiz">
    {#if qIndex<20}
     <div class="quiz-header">
@@ -651,7 +660,7 @@ function result_index_plus(){
 
     
     </div>
-
+    <!--Man ser hur mycket av varje personlighet man är-->
     {:else if qIndex==20}
     <h1 class="endheader">{finalaswer}</h1>
     <h2 class="endheader2">{finalaswer2}</h2>
@@ -673,6 +682,7 @@ function result_index_plus(){
     <button class="to_personalitiys"  on:click={qIndex_plus}>{buttom_personality_text}</button>
     <embed src="detkannsperfekt.mp3" loop="true" autostart="true" class="music_perfekt">
 
+      <!--Läsa om de olika personligheter-->
     {:else}
     <h1 class="persoality_header_styling"><u>{personalityes[result_index]}</u></h1>
     <h2 class="end_procentege_styling">{results[result_index]}%</h2>

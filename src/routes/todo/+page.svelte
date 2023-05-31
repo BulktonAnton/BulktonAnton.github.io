@@ -24,9 +24,6 @@
     <button on:click={addTask}>
         Lägg till uppgift
     </button>
-    <audio controls autoplay>
-        <source src="FORTNITE DEFAULT DANCE BASS BOOSTED.wav">
-    </audio>
     <fieldset>
         {#each tasks as task}
 
