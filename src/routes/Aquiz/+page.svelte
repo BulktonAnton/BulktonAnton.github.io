@@ -629,7 +629,7 @@ function qIndex_plus(){
 function result_index_plus(){
    result_index++
    if(result_index==6)
-      location.href='http://localhost:5173/Finalpage'
+      location.href='./Finalpage'
 
 }
 

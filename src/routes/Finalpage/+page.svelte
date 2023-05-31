@@ -1,6 +1,6 @@
 <script>
     function gobacktoquiz(){
-        location.href='http://localhost:5173/Aquiz'
+        location.href='./Aquiz'
     }
 
 let finalsound="finalsound.mp3"

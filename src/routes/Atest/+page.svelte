@@ -1,7 +1,7 @@
 <script>
     function gotoquiz(){
         if(document.getElementById("c1").checked)
-            location.href='http://localhost:5173/Aquiz'
+            location.href='./Aquiz'
         else
             alert("Hur lyckas du ha fel på första frågan, otroligt pinsamt! Eftersom du hade fel är du skydig mig en swish på 10kr (070-765-25-79)")
     }
